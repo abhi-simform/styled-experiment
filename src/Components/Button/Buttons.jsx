@@ -10,9 +10,11 @@ const Buttons = () => {
       </Title>
       <Container display="flex" styles="gap:1rem">
         <Button>Button</Button>
-        <Button outlined>Outlined Button</Button>
+        <Button outlined borderRadius="0.5rem">
+          Outlined Button
+        </Button>
         <Button href="https://abhisawant.me">Link</Button>
-        <Button outlined href="https://abhisawant.me">
+        <Button outlined paddingInline="2rem" href="https://abhisawant.me">
           Outlined Link
         </Button>
       </Container>
